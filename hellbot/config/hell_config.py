@@ -82,7 +82,7 @@ class Config(object):
     TMP_DOWNLOAD_DIRECTORY = os.environ.get("TMP_DOWNLOAD_DIRECTORY", "./DOWNLOADS/")
     THUMB_IMG = os.environ.get("THUMB_IMG", "./hellbot/resources/pics/hellbot_logo.jpg")
     TZ = os.environ.get("TZ", "Asia/Kolkata")
-    UPSTREAM_REPO = os.environ.get("UPSTREAM_REPO", "https://github.com/The-HellBot/HellBot")
+    UPSTREAM_REPO = os.environ.get("UPSTREAM_REPO", "https://github.com/kurovampbot/HellBot")
     WEATHER_API = os.environ.get("WEATHER_API", None)
     YOUTUBE_API_KEY = os.environ.get("YOUTUBE_API_KEY", None)
 
