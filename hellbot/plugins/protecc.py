@@ -105,9 +105,8 @@ async def _(event):
                         return
                 except:
                     pass
-                hell = await event.client.send_message(event.chat_id, f"/protecc {text}")
+                hell = await event.client.send_message(event.chat_id, f"protecc {text}")
                 await sleep(2)
-                await hell.delete()
                 os.remove(dl)
             except:
                 pass
@@ -150,9 +149,8 @@ async def _(event):
                         return
                 except:
                     pass
-                hell = await event.client.send_message(event.chat_id, f"/protecc {text}")
+                hell = await event.client.send_message(event.chat_id, f"protecc {text}")
                 await sleep(2)
-                await hell.delete()
                 os.remove(dl)
             except:
                 pass
